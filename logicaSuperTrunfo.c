@@ -14,22 +14,21 @@ int main(){
 
     //Código da carta. //
 
-    unsigned long long int populacaoA01 = 3446071 , populacaoB01 = 1069000;
+    unsigned long long int populacaoA01 = 2428708 , populacaoB01 = 1389322;
 
 
     // Definindo populaçao  das cidades . int para utilizar números inteiros.//
 
 
-    float areaA01 = 52.797,  areaB01 = 251.529;
+    float areaA01 = 312.441,  areaB01 = 495.390;
 
     //Definindo a área das cartas. Utilizando float para poder colocar números não inteiros. //
 
-    float PIBA01 = 80180000000, PIBB01 = 64028000000
+    float PIBA01 = 73436128432, PIBB01 = 81562848096;
 
     // Definindo PIB, mesma lógica na linha de cima. // 
 
-   int     pontosturistico = 50, pontosturisticoB01= 30;
-
+   int     pontosturisticoA01 = 52, pontosturisticoB01= 13;
     // definir pontos turisticos. int para números inteiros //
 
     // Daqui pra baixo é status com calculos. //
@@ -178,8 +177,8 @@ int main(){
       } else {
         printf("Deu empate!");
       }
-      cartaA01Atri1 = pturisticoA01;
-      cartaB01Atri1 = pturisticoB01;
+      cartaA01Atri1 = pontosturisticoA01;
+      cartaB01Atri1 = pontosturisticoB01;
       resultado1 = cartaA01Atri1 > cartaB01Atri1 ? 1 : 0;
     
       printf("---------------------------------------------------------------------------------------------------\n");
@@ -283,8 +282,8 @@ int main(){
  
      case 4:
        
-     cartaA01Atri2 = pturisticoA01;
-     cartaB01Atri2 = pturisticoB01;
+     cartaA01Atri2 = pontosturisticoA01;
+     cartaB01Atri2 = pontosturisticoB01;
      resultado2 = cartaA01Atri2 > cartaB01Atri2 ? 1 : 0;
  
  
