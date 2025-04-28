@@ -28,9 +28,9 @@ int main(){
 
     // Definindo PIB, mesma lógica na linha de cima. // 
 
-   int     pontosturisticoA01 = 54, pontosturisticoB01 = 37;
+   int     pontosturistico = 50, pontosturisticoB01= 30;
 
-    // definir pontos turisticos. int para números inteiros. //
+    // definir pontos turisticos. int para números inteiros //
 
     // Daqui pra baixo é status com calculos. //
 
@@ -171,9 +171,9 @@ int main(){
       printf("Quem venceu em pontos turísticos? \n");
       case 4:
 
-      if(pturisticoA01 > pturisticoB01){
+      if(pontosturisticoA01 > pontosturisticoB01){
         printf("%s venceu! \n", codigocartaA01);
-      } else if (pturisticoA01 < pturisticoB01){
+      } else if (pontosturisticoA01 < pontosturisticoB01){
         printf("%s venceu! \n", codigocartaB01);
       } else {
         printf("Deu empate!");
