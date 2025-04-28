@@ -28,10 +28,9 @@ int main(){
 
     // Definindo PIB, mesma lógica na linha de cima. // 
 
-    int pturisticoA01 = 54, pturisticoB01 = 37;
+   int     pontosturisticoA01 = 54, pontosturisticoB01 = 37;
 
-    // pturistico para definir pontos turisticos. int para números inteiros. //
-
+    // definir pontos turisticos. int para números inteiros. //
 
     // Daqui pra baixo é status com calculos. //
 
@@ -39,7 +38,8 @@ int main(){
     float pibpercapitaA01 = PIBA01 /  (float)populacaoA01;
 
     float superpoderA01;
-    superpoderA01 = (1 / densiA01) + ((float)populacaoA01 + areaA01 + PIBA01 + pturisticoA01 + pibpercapitaA01);
+    superpoderA01 = (1 / densiA01) + ((float)populacaoA01 + areaA01 + PIBA01 + pontosturisticoA01 + pibpercapitaA01);
+
     // Fim da carta A01, vamos para carta B01 //
     
     // Daqui pra baixo é status com calculos. //
@@ -48,7 +48,7 @@ int main(){
     float pibpercapitaB01 = PIBB01 / (float)populacaoB01;
 
     float superpoderB01;
-    superpoderB01 = (1 / densiB01) + ((float)populacaoB01 + areaB01 + PIBB01 + pturisticoB01 + pibpercapitaB01);
+    superpoderB01 = (1 / densiB01) + ((float)populacaoB01 + areaB01 + PIBB01 + pontosturisticoB01 + pibpercapitaB01);
 
     // Fim da carta B01 //
 
@@ -62,7 +62,7 @@ int main(){
     printf("\nPopulacao: %lli", populacaoA01);
     printf("\nÀrea: %.3f", areaA01);
     printf("\nPIB: %.2f bilhões", PIBA01 );
-    printf("\nPturistico: %i", pturisticoA01);
+    printf("\nPturistico: %i", pontosturisticoA01);
     printf("\nPibpercapita: %.3f", pibpercapitaA01);
     printf("\nDensipopulacional: %.2f \n----------------------\n", densiA01);
     printf("\nSuperpoder: %.0f \n----------------\n", superpoderA01);
@@ -76,9 +76,9 @@ int main(){
     printf("\nPopulacao: %lli", populacaoB01);
     printf("\nÀrea: %.3f", areaB01);
     printf("\nPIB: %.2f bilhões", PIBB01);
-    printf("\nPturistico: %i", pturisticoB01);
+    printf("\nPturistico: %i", pontosturisticoB01);
     printf("\nPibpercapita: %.3f", pibpercapitaB01);
-    print("\nDensipopulacional: %.2f \n----------------------\n", densiB01);
+    printf("\nDensipopulacional: %.2f \n----------------------\n", densiB01);
     printf("\nSuperpoder: %.0f \n----------------\n", superpoderB01);
 
     int menuEscolha;
