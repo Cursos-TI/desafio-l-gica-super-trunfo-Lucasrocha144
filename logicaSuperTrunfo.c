@@ -20,7 +20,7 @@ int main(){
     // Definindo populaçao  das cidades . int para utilizar números inteiros.//
 
 
-    float areaA01 = 52.797,  areaB01 = 251,529; 
+    float areaA01 = 52.797,  areaB01 = 251.529;
 
     //Definindo a área das cartas. Utilizando float para poder colocar números não inteiros. //
 
@@ -36,10 +36,10 @@ int main(){
     // Daqui pra baixo é status com calculos. //
 
     float densiA01 = (float)populacaoA01 / areaA01;
-    float pibpercapitaA01 = PIB01 / (floata)populacaoA01;
+    float pibpercapitaA01 = PIBA01 /  (float)populacaoA01;
 
     float superpoderA01;
-     superpoderA01 = (1 / densiA01) + ((float)populacaoA01 + areaA01 + PIBA01 + pturisticoA01 + pibpercapitaA01);
+    superpoderA01 = (1 / densiA01) + ((float)populacaoA01 + areaA01 + PIBA01 + pturisticoA01 + pibpercapitaA01);
     // Fim da carta A01, vamos para carta B01 //
     
     // Daqui pra baixo é status com calculos. //
@@ -64,7 +64,7 @@ int main(){
     printf("\nPIB: %.2f bilhões", PIBA01 );
     printf("\nPturistico: %i", pturisticoA01);
     printf("\nPibpercapita: %.3f", pibpercapitaA01);
-    print("\nDensipopulacional: %.2f \n----------------------\n", densiA01);
+    printf("\nDensipopulacional: %.2f \n----------------------\n", densiA01);
     printf("\nSuperpoder: %.0f \n----------------\n", superpoderA01);
 
 
